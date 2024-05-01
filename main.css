@@ -1,0 +1,776 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0e7e2;
+    /* background-size: cover; */
+    /* overflow-x: hidden; */
+}
+/* START GROUP 1 */
+/* START Tooolbar */
+.toolbar{
+     width: 1183px;
+     height: 250px;
+     border-radius: 80px;
+     background-color: #b68e76;
+     box-shadow: 0px 10px 10px black;
+     margin-left:160px;
+     /* margin-top:-70px; */
+}
+.toolbar .logo{
+    text-align: center;
+    margin: 0px 100px;
+    border:2px solid black;
+}
+.toolbar .logo h1{
+    font-size: 72px;
+    letter-spacing: 0px;
+    /* line-height: 95px; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    /* text-align:center; */
+    margin-top: 90px;
+}
+.header{
+      display:flex;
+      justify-content: space-between;
+      padding: 15px 55px;
+      border:1px solid transparent;
+      margin-top:30px;
+}
+.header .menu{
+     padding-left:30px;
+}
+.header .menu ul{
+      list-style-type: none;
+}
+.header .menu ul li{
+     display:inline-block;
+     padding: 0px 17px;
+}
+.header .menu ul li a{
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+    text-decoration:none;
+}.header .SM ul{
+     list-style-type: none;
+}
+.header .SM ul li{
+     display:inline-block;
+     padding:0px 5px;
+}
+.header .BT h4{
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #30302f;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+}
+/* START BANNER 1 */
+.banner1{
+     display: flex;
+     justify-content: space-between;
+     background-image: url(/29-oct2023/assets/Images/Image3group3.png);
+     background-size: cover;
+     height:950px;
+     border: 2px solid black;
+     margin-left:110px;
+     margin-top: -140px;
+}
+.banner1-left{
+    padding:25px 60px;
+    border:1px solid black;
+    margin-top: 340px;
+}
+.banner1-left h1{
+    font-size: 39px;
+    letter-spacing: 0px;
+    line-height: 48px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Roboto Slab";
+    margin-bottom: 10px;
+}
+.banner1-left h2{
+    font-size: 32px;
+    letter-spacing: 0px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+}
+.banner1-left .btn1{
+    /* width: 170px; */
+    /* height: 42px; */
+    border-radius: 21px;
+    background-color: #b68e76;
+    margin-top: 160px;
+    margin-bottom: 30px;
+    text-align: center;
+    width:40%;
+}
+.banner1-left .btn1 a{
+    /* width: 155px; */
+    /* height: 49px; */
+    font-size: 22px;
+    /* letter-spacing: 0px; */
+    line-height: 30px;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+.banner1-left h3{
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    margin-bottom:30px;
+}
+.banner1-left p{
+    /* width: 907px; */
+    /* height: 71px; */
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Roboto slab";
+}
+.banner1-right{
+      border:1px solid black;
+      /* width: 535px; */
+      /* height: 583px; */
+      border-radius: 50px;
+      background-color: #ffffff;
+      margin-top: 340px;
+      padding:25px 65px;
+}
+.banner1-right h1{
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #30302f;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin-bottom: 30px;
+}
+.banner1-right h3 {
+       margin-top: 5px;
+       margin-bottom: 60px;
+}
+.banner1-right h3 a{
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    text-decoration: underline;
+    color: #30302f;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+/* START BANNER 2 */
+.banner2{
+    /* width: 992px; */
+    /* height: 710px; */
+    border-radius: 110px;
+    background-color: #ffffff;
+    border:1px solid black;
+    display:flex;
+    justify-content: space-between;
+    margin-top:260px;
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-bottom: 20px;
+}
+.banner2-left{
+    padding-top:80px;
+    padding-bottom: 80px;
+    padding-left:40px;
+    padding-right: 120px;
+    border:1px solid black;
+    /* background-color: red; */
+}
+.banner2-left h1{
+    font-size: 39px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Roboto Slab";
+}
+.banner2-left h2{
+    font-size: 32px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+    margin: 22px 0px;
+}
+.banner2-left h3{
+    /* width: 660px; */
+    /* height: 197px; */
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.banner2-left .btn2{
+    /* width: 543px; */
+    /* height: 75px; */
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    /* width: 168px; */
+    /* height: 41px; */
+    border-radius: 25px;
+    background-color: #b68e76;
+    padding: 10px 60px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.banner2-left .LT{
+     margin-top:70px;
+     margin-bottom: 50px;
+     border:1px solid black;
+}
+.banner2-left .LT a{
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    /* text-decoration: underline; */
+    color: #000000;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+}
+.banner2-left p{
+    /* width: 907px; */
+    /* height: 71px; */
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+.banner2-right{
+    border:1px solid black;
+    background-image: url(/29-oct2023/assets/Images/Imagegroup2.png);
+    background-repeat: no-repeat;
+    padding:230px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.banner2A{
+     margin-bottom: 30px;
+     border:1px solid black;
+     text-align: center;
+}
+.banner2A h5{
+    font-size: 14px;
+    letter-spacing: 0px;
+    /* text-align: center; */
+    line-height: 19px;
+    color: #30302f;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+}
+/* START GROUP 3 */
+.banner3A{
+    position: relative;
+    border:2px solid green;
+    width:100%;
+    background-image: url(/29-oct2023/assets/Images/Imagegroup3.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height:880px;
+}
+.banner3B{
+    position:absolute;
+    border:2px solid red;
+    width:30%;
+    height:710px;
+    top:110px;
+    right:300px;
+}
+.banner3B h3{
+    font-size: 76px;
+    letter-spacing: 0px;
+    line-height: 85px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+}
+.banner3B h2{
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 47px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+}
+.banner3B h1{
+    font-size: 33px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    margin-top:30px;
+    margin-bottom: 15px;
+}
+.banner3B input[type=text],.banner3B input[type=email],.banner3B input[type=date]{
+    width: 320px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    margin:10px 0px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-left: 25px;
+    border:none;
+}
+.banner3B input[type=button]{
+    width: 320px;
+    height: 40px;
+    border-radius: 21px;
+    background-color: #b68e76;
+    font-size: 22px;
+    text-align: center;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    cursor: pointer;
+    border: none;
+    margin:15px 0px;
+}
+/* START GROUP 4 */
+.banner4{
+      margin-top: 60px;
+      /* width: 987px; */
+      /* height: 564px; */
+      border-radius: 110px;
+      background-color: #b68e76;
+      border:1px solid red;
+      display:flex;
+      justify-content: space-between;
+      /* padding:100px; */
+      margin-top:200px;
+      margin-left: 250px;
+      margin-right:250px;
+
+}
+.banner4-left{
+     background-image: url(/29-oct2023/assets/Images/Imagegroup4.png);
+     background-repeat: no-repeat;
+     border:1px solid black;
+     padding:280px 230px;
+}
+.banner4-right{
+      border:1px solid black;
+      /* padding:0px 230px; */
+      /* padding-left: 40px; */
+      /* padding-right:175px; */
+      padding-top: 50px;
+}
+.banner4-right h1{
+    font-size: 72px;
+    /* letter-spacing: 0px; */
+    /* line-height: 95px; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 175px;
+}
+.banner4-right h2{
+    font-size: 39px;
+    /* letter-spacing: 0px; */
+    /* line-height: 47px; */
+    color: #000000;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+.banner4-right h3{
+    font-size: 21px;
+    /* letter-spacing: 0px; */
+    /* line-height: 64px; */
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+    padding-left: 40px;
+    margin-bottom: 6px;
+}
+.banner4-right p{
+    /* width: 511px; */
+    /* height: 63px; */
+    font-size: 12px;
+    line-height: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    margin-bottom: 12px;
+    padding-left: 40px;
+}
+.banner4-right .back{
+    /* width: 542px; */
+    /* height: 92px; */
+    background-color: #000000;
+    margin-top: 30px;
+    /* padding-left:-40px; */
+    padding:23px 40px;
+
+}
+.banner4-right .back h4{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+    /* padding-left:-40px; */
+}
+.back1{
+       text-align: right;
+       margin-top:20px;
+       /* margin-bottom: 50px; */
+       margin-right: 250px;
+       padding-right: 120px;
+       border:1px solid black;
+}
+.back1 p{
+    /* width: 816px; */
+    /* height: 197px; */
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+/* START GROUP % */
+.banner5A{
+      background-image: url(/29-oct2023/assets/Images/Imagegroup5.png);
+      background-repeat: no-repeat;
+      position:relative;
+      border:1px solid green;
+      height:850px;
+      margin-left: 180px;
+}
+.banner5B{
+       position:absolute;
+       border:1px solid red;
+       width:22%;
+       height: 330px;
+       top:380px;
+       left:120px;
+}
+.banner5B h1{
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: 50;
+    font-family: "Roboto Slab";
+    margin-bottom: 25px;
+}
+.banner5B h2{
+    font-size: 39px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin-bottom: 30px;
+}
+.banner5B .back2{
+    /* width: 279px; */
+    /* height: 42px; */
+    border-radius: 21px;
+    background-color: #b68e76;
+    text-align: center;
+    margin-right: 35px;
+}
+.banner5B .back2 a{
+    font-size: 22px;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+/* START GROUP 6 */
+/* START BANNER 6 */
+.banner6A{
+    background-image: url(/29-oct2023/assets/Images/Group6BIMG.png);
+    background-repeat: no-repeat;
+    border: 1px solid green;
+    position: relative;
+    width:100%;
+    height:970px;
+}
+.banner6A h1{
+    font-size: 52px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+.banner6B{
+     border:1px solid red;
+     position: absolute;
+     height:560px;
+     width:980px;
+     right:0px;
+     top:190px;
+     border-radius: 100px;
+     background-color: #ffffff;
+     Display:flex;
+     justify-content: space-between;
+     /* margin-right: -80px; */
+     /* overflow-x: hidden; */
+}
+.banner6B-left{
+     border:1px solid black;
+     /* padding:70px; */
+     padding-top: 70px;
+     margin-left:70px;
+     padding-right: 80px;
+}
+.banner6B-left .boxA{
+    border-radius: 16px;
+    filter: drop-shadow(0px 3px 3.5px rgba(0,0,0,0.35));
+    background-color: #080808;
+    padding:8px 60px;
+    margin-bottom: 25px;
+    margin-right: 90px;
+}
+.banner6B-left .boxA a{
+    font-size: 17px;
+    color: #fefefc;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+.banner6B-left h2{
+    font-size: 38px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin-bottom: 25px;
+}
+.banner6B-left h3{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+    margin-bottom: 20px;
+}
+.banner6B-left p{
+    font-size: 11px;
+    line-height: 15px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    margin-bottom: 30px;
+}
+.banner6B-left h4{
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+}
+.banner6B-left .boxB{
+    border-radius: 16px;
+    background-color: #b68e76;
+    padding: 8px 60px;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+.banner6B-left .boxB a{
+    font-size: 17px;
+    color: #fefefc;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+.banner6B-right{
+    border:1px solid black;
+    margin-right:360px;
+}
+.banner6B-right h5{
+    font-size: 15px;
+    color: #30302f;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+.banner6B-right p{
+    font-size: 14px;
+    text-decoration: underline;
+    color: #30302f;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+}
+/* START GROUP 7 */
+.banner7{
+     background-image: url(/29-oct2023/assets/Images/Group7IMG.png);
+     background-repeat: no-repeat;
+     width:100%;
+     height:800px;
+     border:1px solid green;
+}
+.banner7 h1{
+    font-size: 123px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin-top: 200px;
+}
+.banner7 h2{
+    font-size: 38px;
+    line-height: 46px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin-top: 70px;
+}
+.banner7 .boxC{
+    border-radius: 21px;
+    background-color: #b68e76;
+    margin-top:50px;
+    text-align: center;
+    padding:12px 0px;
+    width:25%;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+.banner7 .boxC a{
+    font-size: 22px;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+.banner7 p{
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 15px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+/* START GROUP 8 */
+.banner8{
+    border-radius: 110px;
+    background-color: #ffffff;
+    border:1px solid red;
+    display:flex;
+    justify-content: space-between;
+    margin:80px 250px 20px;
+}
+.banner8-left{
+    padding:60px;
+    border:1px solid black;
+}
+.banner8-left h1{
+    font-size: 39px;
+    line-height: 47px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+    margin-bottom: 25px;
+}
+.banner8-left h2{
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+    margin-bottom: 20px;
+}
+.banner8-left p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    margin-bottom: 25px;
+}
+.banner8-left .boxD{
+    border-radius: 17px;
+    background-color: #b68e76;
+    margin-bottom: 25px;
+    text-align: center;
+    padding:12px 0px;
+    /* margin-right: 30px; */
+}
+.banner8-left .boxD a{
+    font-size: 22px;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+.banner8-left h3{
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin-bottom: 25px;
+}
+.banner8-left h4{
+    font-size: 17px;
+    line-height: 23px;
+    color: #b68e76;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+.banner8-right{
+     border:1px solid black;
+     background-image: url(/29-oct2023/assets/Images/GROUP8IMG.png);
+     background-repeat: no-repeat;
+     width:45%;
+}
+.boxE{
+      border:1px solid black;
+      margin-bottom: 80px;
+}
+.boxE h1{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: "Roboto Slab";
+}
+/* START GROUP 9 */
